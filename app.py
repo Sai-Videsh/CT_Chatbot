@@ -11,10 +11,6 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
-port = int(os.environ.get("PORT", 5000))  # Use PORT env var or default to 5000
-
-app.run(host="0.0.0.0", port=port)
-
 # Configure Gemini API key
 api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
@@ -22,9 +18,8 @@ if not api_key:
 genai.configure(api_key=api_key)
 
 # Load FAQ data
-file_path = os.path.join('static', 'faq_data.json')
-with open(file_path, 'r') as f:
-    data = json.load(f)
+with open('static\\faq_data.json', 'r') as f:
+    faq_data = json.load(f)
 
 # Load or initialize user data
 USER_DATA_FILE = 'user_data.json'
@@ -77,11 +72,11 @@ def chatbot_response():
     # Check if user needs quick access tips
     quick_access = ''
     if user_data[user_id]['whatsapp_count'] >= 3:
-        quick_access = '\n\nQuick Access WhatsApp Tips:\n' + '\n'.join(data['Quick Access']['WhatsApp Tips'])
+        quick_access = '\n\nQuick Access WhatsApp Tips:\n' + '\n'.join(faq_data['Quick Access']['WhatsApp Tips'])
 
     # Convert FAQ dict to formatted string for context
     faq_prompt = ""
-    for category, questions in data[user_type].items():
+    for category, questions in faq_data[user_type].items():
         for question, steps in questions.items():
             faq_prompt += f"Q: {question}\nA: {' '.join(steps)}\n\n"
 
