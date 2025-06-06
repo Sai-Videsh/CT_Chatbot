@@ -11,6 +11,10 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
+port = int(os.environ.get("PORT", 5000))  # Use PORT env var or default to 5000
+
+app.run(host="0.0.0.0", port=port)
+
 # Configure Gemini API key
 api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
