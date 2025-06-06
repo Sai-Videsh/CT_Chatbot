@@ -1,0 +1,18 @@
+{
+    "3af25c85-cd5e-4814-a555-a366c109ad3b": {
+        "name": "hi",
+        "type": "Student",
+        "history": [
+            "I'm sai",
+            "do you knoe ishan sharma? explain abt hiim",
+            "it's an YT channel dude!!"
+        ],
+        "whatsapp_count": 2,
+        "feedback": [
+            {
+                "message": "Yes, absolutely! While I can help you with specific questions about WhatsApp and Google Pay, my knowledge extends far beyond those two apps. I can assist you with a wide range of topics relevant to Indian students, including:\n\n*   **Academics:** Information about different subjects, study tips, exam preparation strategies, and career paths.\n*   **College Admissions:** Guidance on entrance exams (JEE, NEET, CUET, etc.), application processes, scholarship opportunities, and choosing the right college or university.\n*   **Government Schemes:** Details on various government programs for education, scholarships, and financial aid for students.\n*   **Career Advice:** Exploring different career options, developing skills, finding internships, and preparing for job interviews.\n*   **Digital Literacy:** Understanding online safety, using productivity tools, and navigating the internet effectively.\n*   **General Information:** Answers to general knowledge questions about India, its culture, history, geography, and current events.\n\nSo, feel free to ask me anything! What else can I help you with today?\n",
+                "feedback": "positive"
+            }
+        ]
+    }
+}

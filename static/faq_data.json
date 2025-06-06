@@ -1,0 +1,75 @@
+{
+  "Student": {
+    "WhatsApp Help": {
+      "How do I send a photo on WhatsApp?": [
+        "Open WhatsApp and go to the chat.",
+        "Tap on the 📎 (attachment) icon.",
+        "Choose ‘Gallery’ or ‘Camera’.",
+        "Select the photo you want to send.",
+        "Tap the Send button."
+      ],
+      "How do I create a WhatsApp group?": [
+        "Open WhatsApp and tap the three dots in the top right.",
+        "Select 'New group'.",
+        "Add participants and tap 'Next'.",
+        "Enter a group name and tap 'Create'."
+      ]
+    },
+    "UPI Payments": {
+      "What is Google Pay?": [
+        "Google Pay is a UPI-based payment app by Google.",
+        "You can send/receive money directly to bank accounts.",
+        "It's fast, secure and used for online payments."
+      ]
+    }
+  },
+  "Parent": {
+    "WhatsApp Help": {
+      "How do I send a photo on WhatsApp?": [
+        "Open WhatsApp and go to the chat.",
+        "Tap on the 📎 (attachment) icon.",
+        "Choose ‘Gallery’ or ‘Camera’.",
+        "Select the photo you want to send.",
+        "Tap the Send button."
+      ],
+      "How do I block a contact on WhatsApp?": [
+        "Open WhatsApp and go to the chat with the contact.",
+        "Tap the contact's name at the top.",
+        "Scroll down and select 'Block'.",
+        "Confirm the block action."
+      ]
+    },
+    "UPI Payments": {
+      "How do I set up Google Pay?": [
+        "Download Google Pay from the Play Store or App Store.",
+        "Sign in with your Google account.",
+        "Link your bank account using your phone number and UPI ID.",
+        "Set a UPI PIN to secure transactions."
+      ]
+    }
+  },
+  "Small Business": {
+    "WhatsApp Help": {
+      "How do I use WhatsApp Business?": [
+        "Download WhatsApp Business from the Play Store or App Store.",
+        "Set up your business profile with contact details.",
+        "Use automated messages to greet customers.",
+        "Create a catalog to showcase products."
+      ]
+    },
+    "UPI Payments": {
+      "What is Google Pay for Business?": [
+        "Google Pay for Business is a UPI-based app for merchants.",
+        "Accept payments via QR codes or phone numbers.",
+        "Track transactions and generate reports."
+      ]
+    }
+  },
+  "Quick Access": {
+    "WhatsApp Tips": [
+      "You can pin important chats by long-pressing and selecting the pin icon.",
+      "Use WhatsApp Web by scanning the QR code at web.whatsapp.com.",
+      "Mute notifications for noisy groups in the group settings."
+    ]
+  }
+}

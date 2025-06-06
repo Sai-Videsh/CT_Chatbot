@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Buddy</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" href="../static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="assistant-bubble" id="assistant-bubble">💬</div>
+    <div class="chat-container hidden" id="chat-container">
+        <div class="chat-header">
+            <button id="theme-toggle" title="Toggle Theme">☀️</button>
+            <h2 style="margin: 0px;">💬Digital Buddy</h2>
+            <button id="close-chat" title="Close Chat">✖</button>
+        </div>
+        <div class="chat-content">
+            <div class="category-sidebar">
+                <h3>Categories</h3>
+                <ul>
+                    <li data-category="WhatsApp Help">WhatsApp Help</li>
+                    <li data-category="UPI Payments">UPI Payments</li>
+                </ul>
+                <h3>User Type</h3>
+                <select id="user-type">
+                    <option value="Student">Student</option>
+                    <option value="Parent">Parent</option>
+                    <option value="Small Business">Small Business</option>
+                </select>
+                <p style="font-size: small; margin-top: 50px;margin-bottom: 20px;">This uses gemini-1.5-flash. Therefore this can handle only 15 requests per minute.</p>
+                <p style="font-size: small; margin-top: 50px;">Chain prompting is not enabled here! you have to give everything in single prompt.</p>
+            </div>
+            <div class="chat-main">
+                <div class="chat-box" id="chat-box">
+                    <div class="bot-bubble">Hi there! 👋 I'm here to help you with WhatsApp, Paytm, Google Pay & more. What's your name?</div>
+                </div>
+                <div class="chat-history" id="chat-history"></div>
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Type your question...">
+                    <button id="mic-btn" title="Voice Input">🎤</button>
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/script.js"></script>
+</body>
+</html>

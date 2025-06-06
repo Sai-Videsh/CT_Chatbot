@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Environment variable file
+.env
+
+# VS Code settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Python virtualenv related
+*.egg-info/
+.eggs/
+.venv/
+.Python
+
+# Backup files
+*.bak
+*.swp
+
+# Flask/Python cache
+instance/
+*.sqlite3
+*.db

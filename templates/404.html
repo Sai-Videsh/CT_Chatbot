@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="..\static\style.css">
+</head>
+<body>
+    <div class="assistant-bubble" id="assistant-bubble">💬</div>
+    <div class="chat-container hidden" id="chat-container">
+        <div class="chat-header">
+            💬 Digital Buddy
+            <button id="theme-toggle" title="Toggle Theme">☀️</button>
+            <button id="close-chat" title="Close Chat">✖</button>
+        </div>
+        <div class="chat-content">
+            <div class="category-sidebar">
+                <h3>Categories</h3>
+                <ul>
+                    <li data-category="WhatsApp Help">WhatsApp Help</li>
+                    <li data-category="UPI Payments">UPI Payments</li>
+                </ul>
+                <h3>User Type</h3>
+                <select id="user-type">
+                    <option value="Student">Student</option>
+                    <option value="Parent">Parent</option>
+                    <option value="Small Business">Small Business</option>
+                </select>
+            </div>
+            <div class="chat-main">
+                <div class="chat-box" id="chat-box">
+                    <div class="bot-bubble">Hi there! 👋 I'm here to help you with WhatsApp, Paytm, Google Pay & more. What's your name?</div>
+                    <div class="bot-bubble">Oops! Page not found. 😓 You can still ask me questions here!</div>
+                </div>
+                <div class="chat-history" id="chat-history"></div>
+                <div class="chat-input">
+                    <input type="text" id="user-input" placeholder="Type your question...">
+                    <button id="mic-btn" title="Voice Input">🎤</button>
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/script.js"></script>
+</body>
+</html>
